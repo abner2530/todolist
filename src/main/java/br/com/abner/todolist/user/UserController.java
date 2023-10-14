@@ -13,7 +13,8 @@ import at.favre.lib.crypto.bcrypt.BCrypt;
 @RestController
 @RequestMapping("/users")
 public class UserController {
-
+    
+    //auto complementa
     @Autowired
     private IUserRepository userRepository;
     
